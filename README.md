@@ -5,7 +5,7 @@ Build Web Applications with poure Python
 
 
 ## Usage
-'''python
+```python
 
 from fastbuilder import Build
 
@@ -25,5 +25,4 @@ executable.run_build(
     backend_framework="fastapi",
 )
 
-
-'''
+```
