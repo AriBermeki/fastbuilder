@@ -48,13 +48,6 @@ def remove_logging(lgging_folder: str, log_file: str):
         return e
 
 
-async def server_exit():
-    import os
-    import signal
-
-    os.kill(os.getpid(), signal.SIGINT)
-
-
 def get_logging(lgging_folder: str, log_file: str):
     try:
         if getattr(sys, "frozen", False):
