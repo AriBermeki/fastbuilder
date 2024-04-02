@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "fastbuilder"
+version = "0.1.0"
+description = ""
+authors = ["AriBermeki <ari.bermeki.de@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.12,<3.13"
+bs4 = "^0.0.2"
+colorama = "^0.4.6"
+pyinstaller = "^6.5.0"
+uvicorn = "^0.29.0"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
